@@ -1,0 +1,1 @@
+export const emailRE: RegExp = /^\w+\.\w+@accumedix\.com$/g;

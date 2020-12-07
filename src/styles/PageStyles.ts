@@ -7,7 +7,11 @@ const usePageStyles = makeStyles((theme: Theme) => ({
     maxWidth: theme.breakpoints.values.sm
   },
   header: {
-    textAlign: 'center'
+    textAlign: 'center',
+    '& h1': {
+      margin: 0,
+      padding: 0
+    }
   }
 }));
 
