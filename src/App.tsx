@@ -7,9 +7,9 @@ import theme from './styles/theme';
 function App() {
   return (
     <BrowserRouter>
-    <ThemeProvider theme={theme}>
-      <AppContainer />
-    </ThemeProvider>
+      <ThemeProvider theme={theme}>
+        <AppContainer />
+      </ThemeProvider>
     </BrowserRouter>
   );
 }
