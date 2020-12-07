@@ -14,7 +14,7 @@ export default function AppContainer() {
 
   return (
     <div className={classes.root}>
-      <Header />
+      <Header user={user} loading={loading}/>
       {loading && <CircularProgress color="primary" className={classes.loader}/> }
       {user && <DashboardPage /> }
       {!user && <LoginPage /> }
